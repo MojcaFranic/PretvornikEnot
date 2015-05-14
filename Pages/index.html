@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pretvornik</title>
+
+    <link rel="stylesheet" href="/style/css/bootstrap.css">
+    <link rel="stylesheet" href="/style/css/style.css">
+    <script src="/style/js/jquery-1.11.2.min.js"></script>
+    <script src="/style/js/bootstrap.js"></script>
+</head>
+<body>
+
+    <center><h1>Pretvornik enot</h1></center>
+
+    <br>
+    <br>
+
+    <form method="post" action="/pretvornik">
+
+        <center><input name="stevilo" placeholder="Vnesi število"></center>
+
+        <br>
+        <br>
+
+        <div class="col-lg-2">
+            <h2>Iz:</h2>
+        </div><!-- /.col-lg-2 -->
+
+        <div class="col-lg-4">
+            <div class="input-group">
+                <select name="enota1" class="form-control">
+                  <option value="mm">Milimeter</option>
+                  <option value="cm">Centimeter</option>
+                  <option value="m">Meter</option>
+                  <option value="km">Kilometer</option>
+                </select>
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-2">
+            <h2>V:</h2>
+        </div><!-- /.col-lg-2 -->
+
+        <div class="col-lg-4">
+            <div class="input-group">
+                <select name="enota2" class="form-control">
+                  <option value="mm">Milimeter</option>
+                  <option value="cm">Centimeter</option>
+                  <option value="m">Meter</option>
+                  <option value="km">Kilometer</option>
+                </select>
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+        <br>
+        <br>
+
+
+        <center><button><a href="/pretvornik">Pretvori</a></button></center>
+
+    </form>
+
+
+
+</body>
+</html>
